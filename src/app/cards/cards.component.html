@@ -1,0 +1,12 @@
+<div class="livros-list">
+    <h2>Featured Collection</h2>
+    <ul>
+        <li *ngFor="let livros of livros">
+            <img src="{{livros.image}}" alt="">
+            <h3>{{ livros.name}}</h3>
+            <p>{{ livros.autor}}</p>
+            <p>Preço: {{ livros.price | currency: 'BRL' }}</p>
+            <button onclick="">buy Now</button>
+        </li>
+    </ul>
+</div>

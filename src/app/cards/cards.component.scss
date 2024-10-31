@@ -1,0 +1,35 @@
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    block-size: 70dvh;
+    flex-wrap: wrap;
+}
+
+li{
+    background-color: #f0f0f0;
+    padding: 30px;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    flex-direction: column;
+}
+
+li img{
+    inline-size: 200px;
+    block-size: 300px;
+}
+
+h2{
+    display: flex;
+    margin-block: 50px;
+}
+
+button{
+    background-color:#017865;
+    border-radius: 1px;
+    color: #f0f0f0;
+}
